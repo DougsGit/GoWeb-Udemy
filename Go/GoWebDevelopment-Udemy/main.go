@@ -1,21 +1,10 @@
 package main
 
-import (
-	"log"
-)
-
-type myStruct struct {
-	FirstName string
-}
-
-func
+import "fmt"
 
 func main() {
-	var myVar myStruct
-	myVar.FirstName = "Doug"
-	myVar2 := myStruct{
-		FirstName: "Andrea",
+	firstLine :="Once upon a midnight dreary"
+	for i, letter:=range firstLine {
+		fmt.Printf("the %d letter is %v\n",i,string(letter))
 	}
-	log.Printf("myVar is set to %s\n", myVar.FirstName)
-	log.Printf("myVar2 is set to %s", myVar2.FirstName)
 }
