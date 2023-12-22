@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"net/http"
-	"github.com/DougsGit/GoWeb-Udemy/tree/master/Go/GoWebDevelopment-Udemy/templates"
+	"github.com/DougsGit/GoWeb-Udemy/Go/GoWebDevelopment-Udemy/templates"
 )
 
 const portNumber = ":8080"
