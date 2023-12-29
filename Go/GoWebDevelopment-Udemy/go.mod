@@ -1,3 +1,3 @@
-module github.com/DougsGit/GoWeb-Udemy/tree/master/Go/GoWebDevelopment-Udemy/bookingsApp
+module myapp1
 
 go 1.21.4
