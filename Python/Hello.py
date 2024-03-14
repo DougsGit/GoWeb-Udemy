@@ -1,4 +1,0 @@
-import csv
-
-with open ("test.txt", "r") as file:
-    print (file.read())
